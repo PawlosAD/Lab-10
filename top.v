@@ -15,7 +15,7 @@ module top(
   .k(sw[2]),
   .clk(btnC),
   .q(led[4]),
-    .qn(led[3])
+  .qn(led[3])
   );
 
   t_flip_flop tff
