@@ -16,8 +16,8 @@ module jk_flip_flop
   d_flip_flop dff
   (
     .d(d), // Connects derived d input to d flip flop's data input
-    .clk(clk), // Connects clock input to d flipf flop's clock input
+    .clk(clk), // Connects clock input to d flip flop's clock input
     .q(q), // Connects D flip flop's output q to module output q
-    .qn(qn) // conectes complement of Qn to module output qn
+    .qn(qn) // connectes complement of Qn to module output qn
   );
 endmodule
